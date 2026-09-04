@@ -8,7 +8,7 @@ class Solution:
         for char in s:
             if char not in s[begin:end]:
                 end+=1
-            else:
+            else:   
                 while char in s[begin:end]:
                     begin+=1
                 end+=1
